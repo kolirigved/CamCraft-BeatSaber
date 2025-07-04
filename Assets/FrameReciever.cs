@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 public class FrameReceiver : MonoBehaviour
 {
     [SerializeField] private RawImage rawImage;  // UI RawImage to display the received frame
-    [SerializeField] private int port = 25001;   // Port to receive the frames
+    [SerializeField] private int port = 5005;   // Port to receive the frames
 
     private UdpClient udpClient;
     private IPEndPoint endPoint;
